@@ -8,9 +8,8 @@ body {
   width: 1600px;
   height: 4105px;
   background: #ffffff;
-  font-family:  "Roboto", sans-serif;
-  margin: 0 auto;  /* выравниваем наше тело сайта по центру страницы */
-  
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto; /* выравниваем наше тело сайта по центру страницы */
 }
 
 /* FIRST PAGE */
@@ -21,11 +20,11 @@ body {
 }
 #title {
   position: absolute;
-  width: 755px;
+  width: 790px;
   height: 75px;
   left: 435px;
   right: 435px;
-  top: 223px;
+  top: 230px;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -33,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 3.55px;
+  letter-spacing: 0.7px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -43,16 +42,16 @@ body {
   width: 504px;
   height: 50px;
   left: 550px;
-  top: 305px;
+  top: 306px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25, 2px;
+  line-height: 27px;
   text-align: center;
   color: #ffffff;
 }
 .buttonGetStarted {
-  width: 184px;
+  width: 186px;
   height: 46px;
   left: 708px;
   top: 405px;
@@ -70,15 +69,13 @@ body {
 }
 .buttonGetStarted:hover {
   background-color: #009cc2;
+  cursor: pointer;
 }
 
 /* menu */
-#About {
+
+.menu {
   position: absolute;
-  width: 38px;
-  height: 20px;
-  left: 503px;
-  top: 24px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -88,56 +85,37 @@ body {
   color: #ffffff;
 }
 
-#About:hover {
+.menu:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+#About {
+  width: 38px;
+  height: 20px;
+  left: 503px;
+  top: 24px;
 }
 
 #Syllabus {
-  position: absolute;
   width: 53px;
   height: 20px;
   left: 627px;
   top: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  opacity: 0.8;
 }
 
 #Projects {
-  position: absolute;
   width: 52px;
   height: 20px;
   left: 924px;
   top: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  opacity: 0.8;
 }
 
 #FAQ {
-  position: absolute;
   width: 26px;
   height: 20px;
   left: 1059px;
   top: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  color: #ffffff;
-  opacity: 0.8;
 }
 
 #icon {
@@ -149,8 +127,18 @@ body {
 }
 
 /* logos */
-#mail {
+
+.icon {
   position: absolute;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#mail {
   width: 20px;
   height: 20px;
   top: 635px;
@@ -158,7 +146,6 @@ body {
 }
 
 #facebook {
-  position: absolute;
   width: 20px;
   height: 20px;
   top: 635px;
@@ -166,7 +153,6 @@ body {
 }
 
 #instagram {
-  position: absolute;
   width: 20px;
   height: 20px;
   top: 635px;
@@ -174,7 +160,6 @@ body {
 }
 
 #youtube {
-  position: absolute;
   width: 20px;
   height: 20px;
   top: 635px;
