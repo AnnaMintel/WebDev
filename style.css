@@ -187,32 +187,32 @@ body {
 
 #phrase2 {
   position: absolute;
-  width: 380px;
+  width: 370px;
   height: 56px;
-  left: 272px;
-  top: 1015.5px;
+  left: 271px;
+  top: 1018px;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 23px;
+  line-height: 30px;
   display: flex;
   align-items: flex-end;
-  letter-spacing: 1px;
+  letter-spacing: 0.4px;
   text-transform: uppercase;
-
   color: #373737;
 }
 
 #phrase3 {
   position: absolute;
-  width: 407px;
+  width: 412px;
   height: 80px;
   left: 271px;
   top: 1103px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 140%;
+  line-height: 20px;
+  letter-spacing: 0px;
   color: #4e4e4e;
 }
 .buttonGetStarted2 {
@@ -233,6 +233,11 @@ body {
   color: #ffffff;
 }
 
+.buttonGetStarted2:hover {
+  background-color: #009cc2;
+  cursor: pointer;
+}
+
 /* THIRD PAGE */
 
 .thirdpage {
@@ -240,7 +245,6 @@ body {
   height: 504px;
   left: 0px;
   top: 0px;
-
   background: #f5f6f7;
 }
 
@@ -249,16 +253,16 @@ body {
   width: 45px;
   height: 45px;
   left: 398px;
-  top: 1743px;
+  top: 1740px;
   background: url(I1-276;1-23.png), #c4c4c4;
 }
 
 #phrase4 {
   position: absolute;
-  width: 200px;
+  width: 180px;
   height: 20px;
-  left: 341px;
-  top: 1791px;
+  left: 338px;
+  top: 1790px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -275,8 +279,8 @@ body {
   position: absolute;
   width: 298px;
   height: 80px;
-  left: 271px;
-  top: 1825px;
+  left: 270px;
+  top: 1822px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -323,7 +327,6 @@ body {
   height: 11.31px;
   left: 1250px;
   top: 1672px;
-
   box-sizing: border-box;
 }
 
@@ -349,7 +352,6 @@ body {
   height: 11.31px;
   left: 1324px;
   top: 1672px;
-
   box-sizing: border-box;
 }
 
@@ -376,25 +378,25 @@ img {
   position: absolute;
   width: 350px;
   height: 28px;
-  left: 815px;
-  top: 2384px;
+  left: 816px;
+  top: 2386px;
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
   line-height: 28px;
   display: flex;
   align-items: flex-end;
-  letter-spacing: 1px;
+  letter-spacing: 0.6px;
   text-transform: uppercase;
   color: #373737;
 }
 
 #phrase7 {
   position: absolute;
-  width: 407px;
+  width: 408px;
   height: 60px;
   left: 815px;
-  top: 2443px;
+  top: 2446px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -406,7 +408,7 @@ img {
   width: 184px;
   height: 46px;
   left: 815px;
-  top: 2547px;
+  top: 2548px;
   background-color: #00afdb;
   border-bottom: none;
   position: absolute;
@@ -420,12 +422,9 @@ img {
   color: #ffffff;
 }
 
-#checkicon {
-  position: absolute;
-  width: 16.52px;
-  height: 13.22px;
-  left: 959px;
-  top: 3208px;
+.buttonGetStarted3:hover {
+  background-color: #009cc2;
+  cursor: pointer;
 }
 
 /* FIFTH PAGE */
@@ -483,6 +482,14 @@ img {
   top: 3187px;
   background: #00afdb;
   border-radius: 0px;
+}
+
+#checkicon {
+  position: absolute;
+  width: 16.52px;
+  height: 13.22px;
+  left: 959px;
+  top: 3208px;
 }
 
 /* SIXTH PAGE */
