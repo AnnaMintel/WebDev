@@ -447,7 +447,7 @@ img {
 
 #phrase8 {
   position: absolute;
-  width: 380px;
+  width: 400px;
   height: 28px;
   left: 610px;
   top: 3110px;
@@ -458,37 +458,38 @@ img {
   display: flex;
   align-items: flex-end;
   text-align: center;
-  letter-spacing: 1.7px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #ffffff;
 }
 
 #email {
   position: absolute;
-  width: 335px;
+  width: 314px;
   height: 46px;
   left: 596px;
-  top: 3187px;
+  top: 3188px;
   background: #ffffff;
   border-radius: 0px;
-  padding-left: 10px;
+  padding-left: 22px;
 }
 
-#checkButton {
+.checkButton {
   position: absolute;
   width: 66px;
   height: 52px;
-  left: 937px;
-  top: 3187px;
+  left: 938px;
+  top: 3188px;
   background: #00afdb;
   border-radius: 0px;
+  border: none;
 }
 
 #checkicon {
   position: absolute;
   width: 16.52px;
   height: 13.22px;
-  left: 959px;
+  left: 962px;
   top: 3208px;
 }
 
