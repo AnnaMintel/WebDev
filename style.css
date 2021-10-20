@@ -478,19 +478,23 @@ img {
   position: absolute;
   width: 66px;
   height: 52px;
-  left: 938px;
+  left: 936px;
   top: 3188px;
-  background: #00afdb;
+  background-color: #00afdb;
   border-radius: 0px;
-  border: none;
 }
 
-#checkicon {
+.checkButton:hover {
+  background-color: #009cc2;
+  cursor: pointer;
+}
+
+.checkButton img {
   position: absolute;
-  width: 16.52px;
-  height: 13.22px;
-  left: 962px;
-  top: 3208px;
+  top: 18px;
+  left: 25px;
+  width: 16px;
+  height: 13px;
 }
 
 /* SIXTH PAGE */
@@ -556,6 +560,7 @@ img {
 }
 .applestore:hover {
   background-color: #009cc2;
+  cursor: pointer;
 }
 
 #apple {
@@ -592,6 +597,7 @@ img {
 
 .playmarket:hover {
   background-color: #009cc2;
+  cursor: pointer;
 }
 
 #android {
@@ -625,6 +631,11 @@ footer {
   font-size: 14px;
   line-height: 20px;
   color: #818181;
+}
+
+.downMenuAnimation:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 #credits {
