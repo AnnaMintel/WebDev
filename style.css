@@ -130,40 +130,29 @@ body {
 
 .icon {
   position: absolute;
+  width: 197px;
+  height: 20px;
+  left: 700px;
+  top: 632px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.icon:hover {
+.icon a {
+  width: 20px;
+  height: 20px;
+}
+
+.icon a img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon a img:hover {
   transform: scale(1.5);
   transition: 0.5s;
   cursor: pointer;
-}
-
-#mail {
-  width: 20px;
-  height: 20px;
-  top: 635px;
-  left: 717px;
-}
-
-#facebook {
-  width: 20px;
-  height: 20px;
-  top: 635px;
-  left: 767px;
-}
-
-#instagram {
-  width: 20px;
-  height: 20px;
-  top: 635px;
-  left: 817px;
-}
-
-#youtube {
-  width: 20px;
-  height: 20px;
-  top: 635px;
-  left: 867px;
 }
 
 /* SECOND PAGE */
@@ -365,7 +354,7 @@ body {
   background: #ffffff;
 }
 
-img {
+.fourthpage img {
   position: absolute;
   width: 407px;
   height: 582px;
