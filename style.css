@@ -18,112 +18,82 @@ body {
   height: 744px;
   background-image: url(bgimage.jpg);
 }
-#title {
+
+.Text1stPage {
   position: absolute;
-  width: 790px;
-  height: 75px;
-  left: 435px;
-  right: 435px;
+  width: 738px;
+  left: 432px;
+  height: 228px;
   top: 230px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 75px;
   display: flex;
-  align-items: center;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Text1stPage h1 {
+  width: 738px;
+  height: 70px;
+  font-size: 64px;
+  font-weight: bold;
+  margin: 0px;
   letter-spacing: 0.7px;
   text-transform: uppercase;
   color: #ffffff;
 }
 
-#phrase1 {
-  position: absolute;
-  width: 504px;
+.Text1stPage p {
+  width: 738px;
   height: 50px;
-  left: 550px;
-  top: 306px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 25px;
   text-align: center;
   color: #ffffff;
 }
-.buttonGetStarted {
+
+.Text1stPage button {
   width: 186px;
   height: 46px;
-  left: 708px;
-  top: 405px;
   background-color: #00afdb;
   outline: none;
   border: none;
-  position: absolute;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
-  align-items: center;
-  text-align: center;
   color: #ffffff;
 }
-.buttonGetStarted:hover {
+
+.Text1stPage button:hover {
   background-color: #009cc2;
   cursor: pointer;
 }
 
 /* menu */
 
-.menu {
+.menuGlobal {
   position: absolute;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
+  width: 590px;
+  height: 20px;
+  left: 500px;
+  top: 38px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: #ffffff;
 }
+ 
+.menuGlobal p {
+  width: 38px;
+  height: 20px;
+  font-size: 13px;
+}
 
-.menu:hover {
+.menuGlobal p:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-#About {
-  width: 38px;
-  height: 20px;
-  left: 503px;
-  top: 24px;
-}
-
-#Syllabus {
-  width: 53px;
-  height: 20px;
-  left: 627px;
-  top: 24px;
-}
-
-#Projects {
-  width: 52px;
-  height: 20px;
-  left: 924px;
-  top: 24px;
-}
-
-#FAQ {
-  width: 26px;
-  height: 20px;
-  left: 1059px;
-  top: 24px;
-}
-
-#icon {
-  position: absolute;
+.menuGlobal img {
   width: 44px;
   height: 44px;
-  left: 778px;
-  top: 24px;
 }
 
 /* logos */
