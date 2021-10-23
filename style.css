@@ -17,21 +17,24 @@ body {
   width: 1600px;
   height: 744px;
   background-image: url(bgimage.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Text1stPage {
-  position: absolute;
   width: 738px;
-  left: 432px;
-  height: 228px;
-  top: 230px;
+  height: 220px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .Text1stPage h1 {
-  width: 738px;
+  width: 100%;
   height: 70px;
   font-size: 64px;
   font-weight: bold;
@@ -42,7 +45,7 @@ body {
 }
 
 .Text1stPage p {
-  width: 738px;
+  width: 100%;
   height: 50px;
   font-size: 18px;
   line-height: 25px;
@@ -69,17 +72,16 @@ body {
 /* menu */
 
 .menuGlobal {
-  position: absolute;
   width: 590px;
   height: 20px;
-  left: 500px;
-  top: 38px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: #ffffff;
+  margin-top: 30px;
 }
- 
+
 .menuGlobal p {
   width: 38px;
   height: 20px;
@@ -99,14 +101,13 @@ body {
 /* logos */
 
 .icon {
-  position: absolute;
   width: 197px;
   height: 20px;
-  left: 700px;
-  top: 632px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
 }
 
 .icon a {
