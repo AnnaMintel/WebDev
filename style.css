@@ -130,7 +130,7 @@ body {
 
 .secondpage {
   width: 1600px;
-  height: 830px;
+  height: 850px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -197,51 +197,49 @@ body {
 .thirdpage {
   width: 1600px;
   height: 504px;
-  left: 0px;
-  top: 0px;
   background: #f5f6f7;
+  border: 2px solid rgba(255, 0, 0, 0);
 }
 
-#userpic {
-  position: absolute;
+.Text3dPage {
+  width: 300px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 120px 50px 120px 240px;
+}
+
+.Text3dPage img {
   width: 45px;
   height: 45px;
-  left: 398px;
-  top: 1740px;
-  background: url(I1-276;1-23.png), #c4c4c4;
 }
 
-#phrase4 {
-  position: absolute;
+.Text3dPage h3 {
   width: 180px;
   height: 20px;
-  left: 338px;
-  top: 1790px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  font-weight: bold;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 1.8px;
+  margin-bottom: 8px;
   text-transform: uppercase;
   color: #373737;
 }
 
-#phrase5 {
-  position: absolute;
+.Text3dPage p {
   width: 298px;
   height: 80px;
-  left: 270px;
-  top: 1822px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
+  margin-top: 0px;
   color: #4e4e4e;
 }
 
