@@ -326,55 +326,54 @@ body {
   background: url(pexels-thisisengineering-3861964.jpg);
 }
 
-#phrase6 {
-  position: absolute;
+.Text4thPage {
+  width: 420px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin: 300px 814px;
+}
+
+.Text4thPage h2 {
   width: 350px;
   height: 28px;
-  left: 816px;
-  top: 2386px;
   font-style: normal;
   font-weight: bold;
   font-size: 23px;
   line-height: 28px;
-  display: flex;
-  align-items: flex-end;
   letter-spacing: 0.6px;
   text-transform: uppercase;
   color: #373737;
+  margin: 0px;
 }
 
-#phrase7 {
-  position: absolute;
+.Text4thPage p {
   width: 408px;
   height: 60px;
-  left: 815px;
-  top: 2446px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 20px;
   color: #4e4e4e;
+  margin: 10px 0px;
 }
 
-.buttonGetStarted3 {
+.Text4thPage button {
   width: 184px;
   height: 46px;
-  left: 815px;
-  top: 2548px;
   background-color: #00afdb;
   border-bottom: none;
-  position: absolute;
   border: none;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  align-items: center;
-  text-align: center;
   color: #ffffff;
 }
 
-.buttonGetStarted3:hover {
+.Text4thPage button:hover {
   background-color: #009cc2;
   cursor: pointer;
 }
