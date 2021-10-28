@@ -379,70 +379,67 @@ body {
 
 /* FIFTH PAGE */
 
-.fifthhpage {
-  position: absolute;
+.fifthpage {
   width: 1600px;
   height: 506px;
-  left: 0px;
-  top: 3000px;
+  background-image: url('bgimage2.jpg');
+  display: flex;
+  align-items: center;
 }
 
-#bgimage2 {
-  position: absolute;
-  width: 1602px;
-  height: 523px;
-  left: 0px;
-  top: 2930px;
+.Text5thPage {
+  width: 480px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 173px 567px;
 }
 
-#phrase8 {
-  position: absolute;
+.Text5thPage h2 {
   width: 400px;
   height: 28px;
-  left: 610px;
-  top: 3110px;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 28px;
-  display: flex;
-  align-items: flex-end;
-  text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
+  padding: 5px;
   color: #ffffff;
 }
 
-#email {
-  position: absolute;
+.inputButton {
+  width: 430px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputButton input {
   width: 314px;
-  height: 46px;
-  left: 596px;
-  top: 3188px;
+  height: 40px;
   background: #ffffff;
   border-radius: 0px;
+  border: none;
   padding-left: 22px;
 }
 
-.checkButton {
-  position: absolute;
+.inputButton button {
   width: 66px;
-  height: 52px;
-  left: 936px;
-  top: 3188px;
+  height: 42px;
   background-color: #00afdb;
   border-radius: 0px;
+  border: none;
 }
 
-.checkButton:hover {
+.inputButton button:hover {
   background-color: #009cc2;
   cursor: pointer;
 }
 
-.checkButton img {
-  position: absolute;
-  top: 18px;
-  left: 25px;
+.inputButton button img {
   width: 16px;
   height: 13px;
 }
