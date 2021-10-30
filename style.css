@@ -382,7 +382,7 @@ body {
 .fifthpage {
   width: 1600px;
   height: 506px;
-  background-image: url('bgimage2.jpg');
+  background-image: url("bgimage2.jpg");
   display: flex;
   align-items: center;
 }
@@ -447,11 +447,11 @@ body {
 /* SIXTH PAGE */
 
 .sixthpage {
-  position: absolute;
+  /* position: absolute; */
   width: 1600px;
   height: 464px;
-  left: 0px;
-  top: 3454px;
+  /* left: 0px;
+  top: 3454px; */
   background: #f5f6f7;
 }
 
@@ -564,62 +564,36 @@ body {
 /* BUTTOM PAGE */
 
 footer {
-  position: absolute;
   width: 1600px;
-  height: 185px;
-  left: 0px;
-  top: 3920px;
+  height: 206px;
   background: #000000;
-}
-
-.downmenu {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #818181;
 }
 
-.downMenuAnimation:hover {
+.downmenu {
+  width: 290px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px 50px 90px;
+}
+
+.downmenu :hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
-#credits {
-  position: absolute;
-  width: 45px;
-  height: 20px;
-  left: 161px;
-  top: 61px;
+.footer img {
+  width: 80px;
+  height: 40px;
 }
 
-#privacy {
-  position: absolute;
-  width: 46px;
+footer p {
+  width: 350px;
   height: 20px;
-  left: 246px;
-  top: 61px;
-}
-
-#Ourtearms {
-  position: absolute;
-  width: 88px;
-  height: 20px;
-  left: 325px;
-  top: 61px;
-}
-#author {
-  position: absolute;
-  width: 170px;
-  height: 20px;
-  left: 1270px;
-  top: 61px;
-}
-
-#icon1 {
-  position: absolute;
-  width: 44px;
-  height: 44px;
-  left: 778px;
-  top: 59px;
 }
