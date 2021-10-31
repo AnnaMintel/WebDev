@@ -447,99 +447,92 @@ body {
 /* SIXTH PAGE */
 
 .sixthpage {
-  /* position: absolute; */
   width: 1600px;
   height: 464px;
-  /* left: 0px;
-  top: 3454px; */
   background: #f5f6f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-#phrase9 {
-  position: absolute;
+.Text6thPage {
+  width: 500px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 78px 0px 0px 0px;
+}
+
+.Text6thPage h2 {
   width: 300px;
-  height: 28px;
-  left: 675px;
-  top: 94px;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
-  display: flex;
-  align-items: flex-end;
   text-align: center;
   letter-spacing: 0px;
   text-transform: uppercase;
   color: #373737;
+  margin: 8px;
 }
 
-#phrase10 {
-  position: absolute;
+.Text6thPage p {
   width: 480px;
-  height: 40px;
-  left: 558px;
-  top: 154px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
   text-align: center;
+  line-height: 20px;
   color: #4e4e4e;
 }
+
+.buttons {
+  width: 400px;
+  height: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 0px 114px 0px;
+}
+
 .applestore {
+  width: 127px;
+  height: 46px;
   font-style: normal;
   font-weight: bold;
   color: #ffffff;
-  position: absolute;
-  width: 127px;
-  height: 46px;
-  left: 598px;
-  top: 237px;
   border: none;
   background: #00afdb;
   border-radius: 0px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
 }
+
 .applestore:hover {
   background-color: #009cc2;
   cursor: pointer;
 }
 
 #apple {
-  position: absolute;
   width: 59px;
   height: 46px;
-  left: 725px;
-  top: 237px;
   background: #009cc2;
   border-radius: 0px;
   flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0px 16px 0px 0px;
 }
 
 .playmarket {
+  width: 127px;
+  height: 46px;
   font-style: normal;
   font-weight: bold;
   color: #ffffff;
-  position: absolute;
-  width: 127px;
-  height: 46px;
-  left: 812px;
-  top: 237px;
   border: none;
   background: #00afdb;
   border-radius: 0px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
+  margin: 0px 0px 0px 16px;
 }
 
 .playmarket:hover {
@@ -548,16 +541,10 @@ body {
 }
 
 #android {
-  position: absolute;
   width: 59px;
   height: 46px;
-  left: 939px;
-  top: 237px;
   background: #009cc2;
   border-radius: 0px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   margin: 0px 0px;
 }
 
